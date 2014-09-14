@@ -1,5 +1,18 @@
 #!/usr/bin/env ruby
 
+
+# parse the arguments
+# create WorldLatency object
+# call require methods
+
+# commands
+#   help
+#   list continents
+#   list countries [continent]
+#   ping [continent|country_list|number_of_countries]
+#   submit --token xxxxxxxx
+#   compare list_of_timing_files
+
 argv = ARGV.dup
 # argv_extra = []
 # if idx = argv.index("--")
