@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+argv = ARGV.dup
+# argv_extra = []
+# if idx = argv.index("--")
+#   argv_extra = argv.slice(idx+1, argv.length-2)
+#   argv = argv.slice(0, idx)
+# end
+
+# Fast path the version of gem
+if argv.include?("-v") || argv.include?("--version")
+  require "world_latency/version"
+  puts "WorldLatency #{WorldLatency::VERSION}"
+  exit 0
+end
