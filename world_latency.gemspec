@@ -1,3 +1,5 @@
+require 'rake'
+
 $:.unshift File.expand_path("../lib", __FILE__)
 require "world_latency/version"
 
@@ -9,7 +11,8 @@ Gem::Specification.new do |s|
   s.description = "calc network latency between various countries and server"
   s.authors     = ["Athir Nuaimi"]
   s.email       = 'anuaimi@devfoundry.com'
-  s.files       = ["bin/world_latency", "lib/world_latency.rb"]
+  git_files     = `git ls-files`.split("\n") rescue ''
+  s.files       = git_files
   s.executables = %w[world_latency]
   s.homepage    = 'http://rubygems.org/gems/world_latency'
   s.licenses     = %w[MIT]
