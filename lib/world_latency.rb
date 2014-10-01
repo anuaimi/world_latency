@@ -18,3 +18,9 @@ module WorldLatency
 
 end
 
+# define all continents & all countries
+# filter =  
+# d = WorldDatabase.new( filter)
+
+# p = Pinger.new( source, list_of_sites)
+# result, ping_times, ave_time = p.ping( site)

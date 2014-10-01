@@ -1,6 +1,9 @@
 
 World Latency 
 -------------
+
+**NOTE: This is still alpha code and under active development**
+
 Tool to calculate global latency from various countries around the world to a given server
 
 Sometimes its handy to know how much slower your site/service is to users in various countries around the world.  Normally getting this data is very difficult as clients don't normally include latency data when they load your website or use your API.  Running this script on your server will very quickly and easily give you a data on the latency from common countries to your server.  This can be useful so that you can ensure that you are creating a UX that works everywhere around the world, not just to users close to your data center.  This can also be useful if you are looking to compare two or more data centers and see which is better for your key markets.  
