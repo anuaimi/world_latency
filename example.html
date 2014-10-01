@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <link rel="stylesheet" href="stylesheets/MarkerCluster.css" />
+  <link rel="stylesheet" href="stylesheets/MarkerCluster.Default.css" />
+  <script src="javascripts/leaflet.markercluster.js"></script>
+  <style>
+    #map { height: 350px; }
+  </style>
+  <script type="text/javascript">
+    onload = function(){
+      var map = L.map('map').setView([43.65, -79.2], 4);
+      L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+}).addTo(map);
+      //L.marker([43.65, -79.2]).addTo(map).bindPopup('30msec')
+      L.circle([43.65, -79.2], 75000, {color: 'red', fillColor: 'red', fillOpacity:0.8 }).addTo(map)
+    };
+  </script>
+</head>
+<body>
+  <div id="map"></div>
+</body>
+</html>
