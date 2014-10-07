@@ -1,5 +1,5 @@
 {
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "data" : 
     {
         "United States" : [
@@ -14,7 +14,7 @@
             ["FL", "Florida", 4, ["volico.com", "vaultnetworks.com", "dadeschools.net"]],
             ["GA", "Georgia", 8, [""]],
             ["HI", "Hawaii", 40, [""]],
-            ["ID", "Idaho", 39, [""]],            
+            ["ID", "Idaho", 39, ["www.cio.idaho.gov", "www.hostidaho.com"]],            
             ["IL", "Illinois", 5, ["www.ntsource.com"]],
             ["IN", "Indiana", 16, [""]],
             ["IA", "Iowa", 30, [""]],
@@ -53,22 +53,6 @@
             ["WV", "West Virginia", 38, [""]],
             ["WI", "Wisconsin", 20, [""]],
             ["WY", "Wyoming", 50, [""]]
-        ],
-
-        "Canada" : [
-            ["AB", "Alberta", 4, ["datahive.ca", "chinookwebs.com","transcan.net"]],
-            ["BC", "British Columbia", 3, ["novusnow.ca", "unet.ca"]],
-            ["MB", "Manitoba", 5, ["mts.ca","prairie.ca"]],
-            ["NL", "Newfoundland & Labrador", 9, ["www.mun.ca", "www.gov.nl.ca"]],
-            ["NB", "New Brunswick", 8, ["www.xplornet.com", "www2.unb.ca"]],
-            ["NT", "Northwest Territories", 11, ["www.qiniq.com"]],
-            ["NS", "Nova Scotia", 7, ["eastlink.ca","internetworking-atlantic.com"]],
-            ["NU", "Nunavut", 13, []],
-            ["ON", "Ontario", 1, ["acanac.ca", "ultrafastwireless.com"]],
-            ["PE", "Prince Edward Island", 10, ["atlantictechnologycentre.ca" ,"www.peimuseum.com"]],
-            ["PQ", "Quebec", 2, ["videotron.com", "oricom.ca"]],
-            ["SK", "Saskatchewan", 6, ["www.sasktel.com", "www.yourlink.ca"]],
-            ["YT", "Yukon", 12, ["www.nwtel.ca"]]
         ]
     }
 }

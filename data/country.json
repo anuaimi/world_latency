@@ -1,5 +1,5 @@
 {
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "data" : 
     {
         "Africa" : [
@@ -67,30 +67,30 @@
         ],
 
         "Europe" : [
-            ["AT", "Austria", 50, ["www.oenb.at"]],
-            ["BE", "Belgium", 43, ["www.nbb.be"]],
-            ["BG", "Bulgaria", 72, [""]],
-            ["CZ", "Czech Republic", 45, ["www.cnb.cz"]],
-            ["DK", "Denmark", 58, ["www.nationalbanken.dk"]],
-            ["FI", "Finland", 61, ["www.suomenpankki.fi"]],
-            ["DE", "Germany", 7, ["www.commerzbank.com"]],
-            ["FR", "France", 10, ["www.bnpparibas.com"]],
-            ["GR", "Greece", 52, ["www.bankofgreece.gr"]],
-            ["HU", "Hungary", 47, ["english.mnb.hu"]],
-            ["HR", "Croatia", 80, [""]],
-            ["IE", "Ireland", 74, [""]],
-            ["IT", "Italy", 18, ["www.unicreditgroup.eu"]],
-            ["NL", "Netherlands", 32, ["www.abnamro.nl/nl/index.html"]],
-            ["NO", "Norway", 65, ["www.norges-bank.no"]],
-            ["PL", "Poland", 21, ["www.nbp.pl"]],
-            ["PT", "Portugal", 48, ["www.bportugal.pt/Pages/VariationRoot.aspx"]],
-            ["RO", "Romania", 38, ["www.bnro.ro/Home.aspx"]],
-            ["RS", "Serbia", 76, [""]],
-            ["ES", "Spain", 19, ["www.bde.es/bde/es"]],
-            ["SE", "Sweden", 44, ["www.handelsbanken.se"]],
-            ["CH", "Switzerland", 49, ["www.snb.ch/en"]],
-            ["UA", "Ukraine", 33, ["bank.gov.ua/control/uk/index"]],
-            ["GB", "United Kingdom", 9, ["www.barclays.co.uk/PersonalBanking/P1242557947640"]]
+            ["AT", "Austria", 50, ["www.oenb.at", "www.telekomaustria.com", "cnet.at"]],
+            ["BE", "Belgium", 43, ["www.nbb.be", "evonet.be", "www.online.be"]],
+            ["BG", "Bulgaria", 72, ["www.netinfocompany.bg", "www.msatcable.com", "www.bix.bg"],
+            ["CZ", "Czech Republic", 45, ["www.cnb.cz", "www.volny.cz", "www.mopos.cz"]],
+            ["DK", "Denmark", 58, ["www.nationalbanken.dk", "www.novo.dk", "telia.dk", "www.telenor.dk"]],
+            ["FI", "Finland", 61, ["www.suomenpankki.fi", "www.ainacom.fi", "jnt.fi"]],
+            ["DE", "Germany", 7, ["www.commerzbank.com", "www.inet.de", "space.net"]],
+            ["FR", "France", 10, ["www.bnpparibas.com", "hrnet.fr", "www.orange.fr"]],
+            ["GR", "Greece", 52, ["www.bankofgreece.gr", "otenet.gr", "www.grnet.gr"]],
+            ["HU", "Hungary", 47, ["english.mnb.hu", "www.tarr.hu", "qwertynet.hu"]],
+            ["HR", "Croatia", 80, ["webmail.iskon.hr", "www.vipnet.hr", "www.hrvatskitelekom.hr"]],
+            ["IE", "Ireland", 74, ["webmail.netsource.ie", "altmail.blacknight.com", "www.magnet.ie"]],
+            ["IT", "Italy", 18, ["www.unicreditgroup.eu", "www.raiffeisen.it", "www.tre.it"]],
+            ["NL", "Netherlands", 32, ["www.abnamro.nl", "www.surf.nl", "www.nerocvgm.nl", "www.kpn.com"]],
+            ["NO", "Norway", 65, ["www.norges-bank.no", "www.telenor.net", "www.evry.com"]],
+            ["PL", "Poland", 21, ["www.nbp.pl", "uml.lodz.pl", "www.lubelskie.pl"]],
+            ["PT", "Portugal", 48, ["www.bportugal.pt", "www.sibs.pt", "www.esoterica.pt"]],
+            ["RO", "Romania", 38, ["www.bnro.ro/Home.aspx", "www.rotld.ro", "www.ronix.ro"]],
+            ["RS", "Serbia", 76, ["beotel.net", "sbb.rs", "absolutok.com", "www.bcs.rs"]],
+            ["ES", "Spain", 19, ["www.bde.es/bde/es", "www.rediris.es", "grn.es"]],
+            ["SE", "Sweden", 44, ["www.handelsbanken.se", "www.bahnhof.se", "www.pin.se"]],
+            ["CH", "Switzerland", 49, ["www.snb.ch/en", "www.green.ch", "www.mtvmobile.ch"]],
+            ["UA", "Ukraine", 33, ["bank.gov.ua/control/uk/index", "www.elvisti.kiev.ua", "www.tenet.ua"]],
+            ["GB", "United Kingdom", 9, ["www.barclays.co.uk", "www.ifl.net", "www.o2.co.uk"]]
         ],
 
         "North America" : [

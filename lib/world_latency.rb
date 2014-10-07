@@ -9,6 +9,7 @@ module WorldLatency
   require 'world_latency/cli'
   require 'world_latency/list'
   require 'world_latency/pinger'
+  require 'world_latency/version'
 
   class Test
     def self.hi
